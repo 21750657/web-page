@@ -104,6 +104,7 @@ hr {
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
+  width: fit-content;
 }
 
 .team-member img {
@@ -116,16 +117,19 @@ hr {
 
 .team-member-info {
   padding: 20px;
+  font-size: 12px:
 }
 
 .team-member-info h3 {
   margin-top: 0;
   color: #333;
+  font-size: 12px;
 }
 
 .team-member-info p {
   margin: 10px 0;
   color: #777;
+  font-size: 12px;
 }
 
 .sub-bar-container {
