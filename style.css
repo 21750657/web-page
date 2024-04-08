@@ -205,6 +205,20 @@ hr {
   border-radius: 8px;
   color: #fff;
   margin-bottom: 3%;
+  position: absolute;
+  right: -30px; /* Adjust this value as needed */
+  bottom: 0; /* Adjust this value as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .subtitle-4, .bar-3 {
+    position: static;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    right: auto;
+    bottom: auto;
+  }
 }
 
 footer {
